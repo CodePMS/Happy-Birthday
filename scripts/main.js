@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const heartImages = [
     { url: 'https://cdn-icons-png.flaticon.com/512/833/833472.png', filter: 'none' },       // vermelho
     { url: 'https://cdn-icons-png.flaticon.com/512/2107/2107957.png', filter: 'none' },     // branco
-    { url: 'https://cdn-icons-png.flaticon.com/512/833/833472.png', filter: 'brightness(0)' } // preto
+    { url: 'https://cdn-icons-png.flaticon.com/512/2107/2107957.png', filter: 'none' },
   ];
 
   function createHeart() {
@@ -19,8 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setTimeout(() => {
       heart.remove();
-    }, 10000);
+    }, 15000);
   }
 
   setInterval(createHeart, 400);
 });
+
