@@ -40,7 +40,7 @@ body {
     opacity: 0;
   }
 }
-.img {
+img {
     width: 200px; 
     height: auto; 
     border-top: 30px black;
@@ -64,9 +64,34 @@ margin: 0;
 
  a {
 color: rgb(252, 252, 252);
-margin-top: 2px;
-padding: 2px;
+margin-left: 0%;
+padding: 0%;
 
  }
 
- 
+ .direita {
+    float: right;
+    margin-left: 10px;
+    width: 200px; 
+    height: auto; 
+    border-top: 30px black;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.linha-imagens {
+  display: flex;
+  justify-content: space-between; /* distribui as 3 imagens nos cantos e centro */
+  padding: 10px;
+}
+
+.linha-imagens img {
+  width: 150px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
