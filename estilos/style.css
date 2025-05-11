@@ -41,8 +41,8 @@ body {
   }
 }
 img {
-    width: 100px; 
-    height: auto; 
+    width: auto; 
+    height: 90px; 
     border-top: 30px black;
     border-color: rgb(0, 0, 0);
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
