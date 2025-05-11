@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const heartContainer = document.querySelector('.falling-roses'); // pode renomear se quiser
 
   const heartImages = [
-    { url: 'https://cdn-icons-png.flaticon.com/512/833/833472.png', filter: 'none' },       // vermelho
+    { url: 'https://cdn-icons-png.flaticon.com/512/833/833472.png',   filter: 'none' },       // vermelho
     { url: 'https://cdn-icons-png.flaticon.com/512/2107/2107957.png', filter: 'none' },     // branco
     { url: 'https://cdn-icons-png.flaticon.com/512/2107/2107957.png', filter: 'none' },
   ];
