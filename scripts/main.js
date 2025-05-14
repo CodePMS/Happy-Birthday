@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     imagens.forEach(img => {
         img.addEventListener("mouseover", () => {
-            img.style.transform = "scale(1.1)";
+            img.style.transform = "scale(1.5)";
             img.style.transition = "0.3s";
             img.style.opacity = "0.8";
         });
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Animação de entrada suave
         img.style.opacity = "0";
         setTimeout(() => {
-            img.style.transition = "opacity 1s";
+            img.style.transition = "opacity 2s";
             img.style.opacity = "1";
         }, 300);
     });
