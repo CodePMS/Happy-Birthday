@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(to bottom, #000000, #410909);
+  background: linear-gradient(to bottom, #000000, #2e0606);
   font-family: sans-serif;
   color: white;
 
@@ -41,8 +41,8 @@ body {
   }
 }
 img {
-    width: auto; 
-    height: 90px; 
+    width: 250px; 
+    height: 250px; 
     border-top: 30px black;
     border-color: rgb(0, 0, 0);
     box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
